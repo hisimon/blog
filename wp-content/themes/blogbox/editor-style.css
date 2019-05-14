@@ -1,0 +1,631 @@
+/* 
+ * --------------------- blogBox Editor Style -------------------- */
+/**** Menu Styles in superfish.css ****/
+
+/* RESET
+-----------------------------------------------------*/
+/* HTML5-specific CSS setup */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display:block }
+ 
+html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable, form, fieldset, blockquote {
+	padding: 0;
+	margin: 0;
+	font-size: 100%;
+	font-weight: normal;
+}
+
+
+img, fieldset { border: 0; }
+q:before, q:after { content:'"'; }
+
+
+/* --------------------------------------------------------------
+ *                       GLOBAL STYLES
+ * --------------------------------------------------------------*/
+
+body {font-size: 100%;}
+
+h1, h2, h3, h4, h5, h6 {
+	line-height: 1.5em;
+	margin:10px 0px 10px 0px;
+}
+
+h1 {font-size: 24px;}
+
+h2 {font-size: 22px;}
+
+h3 {font-size: 20px;}
+
+h4 {font-size: 18px;}
+
+h5 {font-size: 16px;}
+
+h6 {font-size: 14px;}
+
+p {font-size: 12px;}
+
+blockquote {
+	font-weight:bold; 
+	font-style:italic;
+}
+
+label {font-size: 12px;}
+
+code {
+	font-size:12px;
+	line-height:1.5em;
+	background: url(images/shade.png);
+}
+
+/*
+ * -------------Lists---------------- */
+
+ul{
+	padding-left: 20px;
+	font-size: 12px;
+	line-height: 20px;
+
+}
+
+ul li { list-style:disc;}
+
+ul li li {list-style:circle;}
+
+ul li li li {list-style: square;}
+
+ol{
+	padding-left:20px;
+	font-size:12px;
+}
+
+ol li {list-style: decimal;}
+
+ol li li {list-style: lower-alpha;}
+
+ol li li li {list-style: lower-roman;}
+
+dt {
+	margin:0;
+	padding:0;
+	font-size:12px;
+	font-weight:bold;
+}
+
+dl {
+	margin:0;
+	padding:0;
+	font-size:12px;
+}
+
+dd {font-size:12px;}
+
+/* ----------------Misc HTML tags ------------------- * 
+ */
+
+address {font-size: 12px; font-style: italic;}
+
+pre {
+	border: solid 10px gray;
+    font-size: 12px;
+    color: blue;
+    margin: 10px;
+    padding:10px;
+    background: #F7F4F4;
+}
+
+.left { float:left; }
+
+.right { float:right; }
+
+.center { text-align:center; }
+
+.aligncenter, div.aligncenter { 
+	display: block; 
+	margin-left: auto; 
+	margin-right: auto; 
+}
+
+.clearfix {clear:both;}
+
+.clearleft {clear:left;}
+
+.clearright {clear:right;}
+
+/* ----------------- LINKS ------- */
+
+/* default */
+a:link, a:active, a:visited, a:hover{text-decoration: none; }
+
+	
+/***********************
+ *   PAGE STYLES       *
+ ***********************/
+
+#pagewrap {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	padding-top: 0px;
+}
+
+#widecolumn {
+	width: 590px;
+	float:left;
+	margin-top:25px;
+	margin-left:10px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+#fullwidth {
+	width:960px;
+	margin-left:0;
+	z-index: 1000;  /*IE7 Fix*/
+}
+
+/****** Tables Style *************/
+
+table { 
+	border-collapse: collapse; 
+	border-spacing: 0; 
+}
+
+td, th, caption { 
+	font-weight: normal; 
+	text-align: left; 
+}
+
+table {font-size:12px;}
+
+tbody {}
+
+thead {font-weight: bold;}
+
+th {
+	border: 1px solid black;
+	padding:10px; background: 
+	url(images/shade.png);
+}
+
+tr {
+	border: 1px solid black;
+	padding:10px;
+}
+
+td {
+	border: 1px solid black;
+	padding:10px;
+}
+
+/*      Post Styles
+ --------------------- */
+
+.post {
+	padding: 20px 20px 10px 20px;
+}
+
+.post h2 a, .post h2 {margin-top:10px;}
+
+.post h2 a:hover {
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.post img {
+	margin: 10px 0px 10px 0px; 
+	max-width:550px;
+	border: 0 none;
+}
+
+.post img.alignleft {
+	float:left;
+	margin-right:10px;
+}
+	
+.post img.alignright{
+	float:right;
+	margin-left:10px;
+}
+
+.alignleft {
+	float:left;
+	margin-right:10px;
+}
+
+.alignright {
+	float:right;
+	margin-left:10px;
+}
+
+.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.alignnone {}
+
+.wp-caption img {
+	border: 0 none;
+	margin: 0;
+	padding: 10px 0px 10px 0px;
+	max-width:550px;
+}
+
+.wp-caption p.wp-caption-text , .gallery-caption{
+	line-height: 1.5em;
+	margin: 0;
+	padding: 0 4px 5px;
+	font-size: 11px;
+	font-style:italic;
+}
+
+.post .admin {
+	clear:both;
+	font-size: 10px;
+	padding:10px;
+}
+
+.attachment { 
+	padding: 10px 20px 0 20px; 
+	margin-bottom: 30px; 
+}
+
+.postmeta {
+	display:inline;
+	font-size: 10px;
+	padding-top: 10px;
+	padding-bottom:10px;
+}
+
+.postmeta .timestamp {}
+
+.postmeta .author {padding-left: 20px;}
+
+.postmeta .author a {padding-left:5px;}
+
+.postmeta .author a:hover {}
+
+.postmeta .categories {padding-left: 20px;}
+
+.postmeta .categories a {padding-left: 5px;}
+
+.postmeta .categories a:hover {}
+
+.postmeta .comments {
+	float:right;
+	margin-right:10px;
+}
+
+.postmeta .comments a {}
+
+.postmeta .comments a:hover {}
+
+.postmetabottom {
+	font-size: 10px;
+	padding-top: 35px;
+}
+
+.postmetabottom .edit {background: url(images/shade.png);}
+
+.postmetabottom .taglist {}
+
+.postmetabotton .pagelist{font-size:10px;}
+
+.entry {margin-top:20px;}
+
+.entry p {
+	margin-top: 10px;
+	font-size: 12px;
+	line-height: 1.5em;
+}
+
+.sticky {
+	background: url(images/shade.png);
+	margin-top: 20px;
+}
+
+.bypostauthor{}
+
+/*  Short Codes
+ * -------------------------------------------------- */
+
+/* ---------------columns --------------------------- */
+ 
+ .one_fourth {
+ 	width:200px;
+ 	margin:0px 20px 0px 10px;
+ 	float:left;
+ }
+ 
+ .one_third {
+ 	width:275px;
+ 	margin:0px 20px 0px 10px;
+ 	float:left;
+ }
+ 
+ .two_third {
+ 	width:580px;
+ 	margin:0px 20px 0px 10px;
+ 	float:left;
+ }
+ 
+ .one_half {
+ 	width:430px;
+ 	margin:0px 20px 0px 10px;
+ 	float:left;
+ }
+ 
+ .three_fourth {
+ 	width:660px;
+ 	margin:0px 20px 0px 10px;
+ 	float:left;
+}
+
+/* --------------------quotes -------------------------- */
+ 
+ .quote_left_dark,.quote_left_light,.quote_right_dark,.quote_right_light,
+ .quote_normal_dark,.quote_normal_light {
+ 	margin:10px;
+ 	padding:10px 20px 0px 30px;
+ 	font-family: Georgia,"Times New Roman",Times,serif;
+ 	font-size: 16px;
+ 	line-height:20px;
+ 	font-style:italic;
+ }
+ 
+ .quote_left_dark{
+ 	width:200px;
+ 	float:left;
+ 	background: url(images/quote-dark.png) no-repeat ;
+ }
+ 
+ .quote_left_light{
+ 	width:200px;
+  	float:left;
+ 	background: url(images/quote-light.png) no-repeat ;
+ }
+ 
+ .quote_right_dark{
+ 	width:200px;
+ 	float:right;
+ 	background: url(images/quote-dark.png) no-repeat ;
+ }
+ 
+ .quote_right_light{
+ 	width:200px;
+ 	float:right;
+ 	background: url(images/quote-light.png) no-repeat ; 	
+ }
+ 
+ .quote_normal_dark {
+ 	background: url(images/quote-dark.png) no-repeat ;
+ }
+ 
+ .quote_normal_light {
+ 	background: url(images/quote-light.png) no-repeat ;
+ }
+
+/* --------------------dropcaps ------------------- */
+ 
+ .dropcaps {
+ 	display: block;
+    float: left;
+    font-size: 30px;
+    line-height: 34px;
+    margin: 0px 5px 0px 0px;
+ }
+
+/* -------------------------- lists --------------------------- */
+ 
+ul.list-star,ul.list-arrow_1,ul.list-arrow_2,ul.list-arrow_3,ul.list-check_1,
+ul.list-check_2,ul.list-cog,ul.list-dot,ul.list-happy {
+	margin-left:0px;
+}
+
+ul.list-star li,ul.list-arrow_1 li,ul.list-arrow_2 li,ul.list-arrow_3 li,ul.list-check_1 li,
+ul.list-check_2 li,ul.list-cog li,ul.list-dot li,ul.list-happy li {
+	list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    font-size: 12px;
+    line-height:1.2em;
+    padding-left: 25px;
+    padding-bottom: 0.5em;
+    margin-left:0;
+}
+
+ul.list-star li { background: url(images/li_star.png) no-repeat }
+
+ul.list-arrow_1 li { background: url(images/li_arrow_1.png) no-repeat }
+
+ul.list-arrow_2 li { background: url(images/li_arrow_2.png) no-repeat }
+
+ul.list-arrow_3 li { background: url(images/li_arrow_3.png) no-repeat }
+
+ul.list-check_1 li { background: url(images/li_check_1.png) no-repeat }
+
+ul.list-check_2 li { background: url(images/li_check_2.png) no-repeat }
+
+ul.list-cog li { background: url(images/li_cog.png) no-repeat }
+
+ul.list-dot li { background: url(images/li_dot.png) no-repeat }
+
+ul.list-happy li { background: url(images/li_happy.png) no-repeat }
+
+/* ---------------------messagebox ----------------------------- */
+
+span.messagebox_mbnoshade {
+	font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;
+	padding: 10px 15px 10px 15px;
+	font-size:20px
+}
+
+span.messagebox_mbdark {
+	font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;
+	padding: 10px 15px 10px 15px;
+	font-size:20px;
+	background-image: url(images/mbdark.png);
+	background-repeat:repeat-x;
+}
+
+span.messagebox_mblight {
+	font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;
+	padding: 10px 15px 10px 15px;
+	font-size:20px;
+	background-image: url(images/mblight.png);
+	background-repeat:repeat-x;
+}
+
+div.bB_messagebox {
+	clear:both;
+	padding:20px;
+}
+
+/* ----------------- end messagebox --------------------- */
+
+/****** buttons - Sliding door/Sprite ******************/
+
+/* ----------- basic CSS ------------------- */
+
+a.bB_button span {
+display: inline-block;
+line-height: 41px;
+padding-left:20px;
+padding-right: 10px;
+}
+
+a.bB_button {
+display: inline-block;
+height: 41px;
+padding-right: 9px;
+text-decoration: none;
+font-size:20px;
+font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+
+/* ----- button alignment --------------- */
+.bB_button_left {text-align:left;}
+.bB_button_right {text-align:right;}
+.bB_button_center {text-align:center;}
+
+/* ----------------------- gray ----------------------------------------------------- */
+a.bB_button_gray span {background: url('images/buttons/gray_l.png') no-repeat 0 0;}
+a.bB_button_gray {background: url('images/buttons/gray_r.png') no-repeat top right;}
+a.bB_button_gray:hover span {background-position: 0 -44px;}
+a.bB_button_gray:hover {background-position: right -44px;}
+
+/* ----------------------- red ----------------------------------------------------- */
+a.bB_button_red span {background: url('images/buttons/red_l.png') no-repeat 0 0;}
+a.bB_button_red {background: url('images/buttons/red_r.png') no-repeat top right;}
+a.bB_button_red:hover span {background-position: 0 -44px;}
+a.bB_button_red:hover {background-position: right -44px;}
+
+/* ----------------------- blue ----------------------------------------------------- */
+a.bB_button_blue span {background: url('images/buttons/blue_l.png') no-repeat 0 0;}
+a.bB_button_blue {background: url('images/buttons/blue_r.png') no-repeat top right;}
+a.bB_button_blue:hover span {background-position: 0 -44px;}
+a.bB_button_blue:hover {background-position: right -44px;}
+
+/* ----------------------- dark ----------------------------------------------------- */
+a.bB_button_dark span {background: url('images/buttons/dark_l.png') no-repeat 0 0;}
+a.bB_button_dark {background: url('images/buttons/dark_r.png') no-repeat top right;}
+a.bB_button_dark:hover span {background-position: 0 -44px;}
+a.bB_button_dark:hover {background-position: right -44px;}
+
+/* ----------------------- brown ----------------------------------------------------- */
+a.bB_button_brown span {background: url('images/buttons/brown_l.png') no-repeat 0 0;}
+a.bB_button_brown {background: url('images/buttons/brown_r.png') no-repeat top right;}
+a.bB_button_brown:hover span {background-position: 0 -44px;}
+a.bB_button_brown:hover {background-position: right -44px;}
+
+/* ----------------------- green ----------------------------------------------------- */
+a.bB_button_green span {background: url('images/buttons/green_l.png') no-repeat 0 0;}
+a.bB_button_green {background: url('images/buttons/green_r.png') no-repeat top right;}
+a.bB_button_green:hover span {background-position: 0 -44px;}
+a.bB_button_green:hover {background-position: right -44px;}
+
+/* ----------------------- yellow----------------------------------------------------- */
+a.bB_button_yellow span {background: url('images/buttons/yellow_l.png') no-repeat 0 0;}
+a.bB_button_yellow {background: url('images/buttons/yellow_r.png') no-repeat top right;}
+a.bB_button_yellow:hover span {background-position: 0 -44px;}
+a.bB_button_yellow:hover {background-position: right -44px;}
+
+/* ----------------------- userA ----------------------------------------------------- */
+a.bB_button_userA span {background: url('images/buttons/userA_l.png') no-repeat 0 0;}
+a.bB_button_userA {background: url('images/buttons/userA_r.png') no-repeat top right;}
+a.bB_button_userA:hover span {background-position: 0 -44px;}
+a.bB_button_userA:hover {background-position: right -44px;}
+
+/* ----------------------- userB ----------------------------------------------------- */
+a.bB_button_userB span {background: url('images/buttons/userB_l.png') no-repeat 0 0;}
+a.bB_button_userB {background: url('images/buttons/userB_r.png') no-repeat top right;}
+a.bB_button_userB:hover span {background-position: 0 -44px;}
+a.bB_button_userB:hover {background-position: right -44px;}
+
+/* ---------------------------- CSS3 Gradient Button ----------------------------------- */
+
+.bB_3d_button {
+   font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+   /* CSS3 rounded corners */
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   	/* CSS3 shadow */
+	-webkit-box-shadow: 2px 5px 5px 0 rgba(72,72,72,0.8);
+	-moz-box-shadow: 2px 5px 5px 0 rgba(72,72,72,0.8);
+	box-shadow: 2px 5px 5px 0 rgba(72,72,72,0.8);
+}
+   
+.css_button_small {
+	padding: 2px 5px 2px 5px;
+	font-size: 12px;
+}
+ 
+.css_button_medium {
+	padding: 5px 10px 5px 10px;
+	font-size: 20px;
+}
+
+.css_button_large {
+	padding: 8px 13px 8px 13px;
+	font-size: 30px;
+}
+   
+a.bB_3d_button:hover {
+	/*background-color: white;*/
+   background-image: url(images/shade.png) !important;
+   /*font-weight:bold;
+   color: white !important;
+   border: 2px solid black;*/
+  	/*lighten the shadow */
+	-webkit-box-shadow: 1px 2px 2px 0 rgba(72,72,72,0.5);
+	-moz-box-shadow: 1px 2px 2px 0 rgba(72,72,72,0.5);
+	box-shadow: 1px 2px 2px 0 rgba(72,72,72,0.5);
+   } 
+/*
+ * --------------- font-styles ----------------------- */
+   
+	h1, h2, h3, h4, h5, h6 {font-family:Verdana, Geneva, sans-serif;}
+	#slogan1 h1 {font-family:Verdana, Geneva, sans-serif;}
+	#slogan2 p.slogan2line1 {font-family:Verdana, Geneva, sans-serif;}
+	#slogan2 p.slogan2line2 {font-family:Verdana, Geneva, sans-serif;}
+	.listhead{font-family:Verdana, Geneva, sans-serif;}
+	body {font-family:Verdana, Geneva, sans-serif;}
+	.main-nav {font-family:Verdana, Geneva, sans-serif;} 
+	
+/*
+ * blogBox Theme - Grey skin set up for style editor */
+
+	body {
+		background-color: #e8e8e8;
+		background-image: url(../images/bg1.png);
+		background-repeat:repeat-x;
+	}
+	body #pagewrap {background-color: #F4F4F4;}
+	#widecolumn {background-color: #F4F4F4;}
+	#fullwidth {background-color: #F4F4F4;}
+	a:link, a:active, a:visited {color: #579c99;}
+	a:hover { color: #8E7763;}
+	body #pagewrap {color: #4D4D4D;}

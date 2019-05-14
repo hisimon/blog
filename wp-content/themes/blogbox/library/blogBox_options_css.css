@@ -1,0 +1,47 @@
+/<?php
+/**
+ * Admin blogBox Options styles
+ *
+ *
+ * @package		blogBox WordPress Theme
+ * @copyright	Copyright (c) 2012, Kevin Archibald
+ * @license		http://www.gnu.org/licenses/quick-guide-gplv3.html  GNU Public License
+ * @author		Kevin Archibald <www.kevinsspace.ca/contact/>
+ */
+.wrap {
+	width: 960px;
+	margin: 0;
+}
+
+#picker {
+	position: relative;
+	top: 100px;
+	left: 650px;
+}
+
+.text_colors {
+	width: 960px;
+	margin: 0;
+}
+
+select {width: 250px;}
+
+input {width: 250px;}
+
+.description {
+	vertical-align: top;
+	margin-left: 10px;
+}
+
+.button-primary,.button-secondary{width: 150px;}
+
+h2.nav-tab-wrapper a {font-size: 18px;}
+
+input.blogBox_upload_button {
+	width: 150px;
+	background-color: #c3c3c3;
+}
+
+input.blogBox_upload_button:hover {
+	color: #ffffff;
+}

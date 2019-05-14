@@ -1,0 +1,231 @@
+== Changelog ==
+
+ersion 4.0.2 - Released dd-Mon-14
+----------------------------------------------------------------
+- Fixed demo2 reference on default slide to demo1
+- Fixed three box height problem, home page will refresh on resize
+- minor css improvements
+- Updated Color box to 1.5.5 and added slideshow option
+
+Version 4.0.1 - Released 23-Jan-14
+----------------------------------------------------------------
+- still problems with ie11, added immediately below <head> tag
+  <meta http-equiv="x-ua-compatible" content="IE=edge">
+  
+Version 4.0.0 - Released 22-Jan-14
+----------------------------------------------------------------
+- fixed post meta functions, timestamp icon too close, removed 
+  some option variables called but not needed
+- check post meta for correct link message
+- fixed chat filter for protected posts
+  if( post_password_required() ) return $content;
+- fixed white space above and below full width banner
+- img.avatar removed width constraint in style.css
+- removed conditional ie class tags from header.php
+- removed all ie8 specific styles from css sheets
+
+Version 3.45.4 - Released 3-Oct-13
+----------------------------------------------------------------
+- Fixed the superfish license statement in the readme.txt file
+- removed excess css files from /nivo-slider/ and removed excess css and 
+  bootstrap files from font-awesome/
+  
+Version 3.43.3 - Released 15-Sep-13
+----------------------------------------------------------------
+- added fullwidth blog, and optional single page blog
+- added option to exclude footer
+- added option for 3 or 4 columns in the footer
+- added option to exclude the copyright strip
+- Added Font Awesome and changed over post format icons, and post meta 
+  descriptors to the icons
+- improved image formatting in post format Image
+- added second right and left sidebar pages
+- removed audio filter as this is now fixed in core
+- updated colorbox to version 1.4.27 and added png 
+  to color box presentations
+- adopted the same menu style as Expressions. 
+  Set up color options for the menu as well
+- revised skins for the new menu system, and improved the blue 
+  and wine skins
+- modified comment form text before, and removed html comment after
+- Post Meta , moved category meta to the bottom.
+- changed out sticky notification to css content icon so it will not 
+  show in main blog, where the post is chronologically listed
+- changed center title line height to 1 em
+- modified css for banner header to allow for centered logo
+- set up blockquote to use quote icon
+- set up q to use quote icon
+- added borders and rounded corners to images
+- removed vendor extensions for box-shadow
+- removed vendor extensions for border-radius
+- moved filter: alpha(opacity=50); to .ie8 specific styles
+- moved background: url(images/shade.png); to ie8 specific styles
+- modified character counts in all portfolio pages
+- modified 404 page, added smilies
+- css improvements were made as I worked through the tests
+- modified comments system to expressions system ... much better :)
+- make gravatar checks an option
+- modified page-home-blog.php to set it up properly for post formats
+- fixed <!--more--> tag not working on static pages
+- removed post format icon options and help section for post format helper
+- fixed divider bug in page-home-blog.php
+- noticed an issue with the nivo slider and IE10, caption clearing 
+  on slice changeover. Changed slices to 1, and effect to "fade" and 
+  animSpeed to 700 (from 500)
+- replaced < with &lt; and > with &gt; in pagination on blogs
+- fixed comment and contact form captcha css
+- added translation to blank side bar comments
+- updated translation
+- updated user docs
+
+Version 3.05.2 - Released 11-Jul-13
+----------------------------------------------------------------
+- removed Audio, Video, and Quote shortcodes, including text and visual toolbars
+- changed default lineheight to 1.3125 for body text except lists ahd headers (1.5em)
+- removed toolbar buttons for shortcodes
+- updated translation
+- updated documentation
+
+Version 3.0.1 - Released 2-Jun-13
+----------------------------------------------------------------
+- added border-collapse: collapse; to td, th, caption {}
+- added img.wp-smiley{padding:0;} to post css
+- captcha.php code updated to minimize chances of conflict, added new color captcha option
+- fixed comment captcha to refresh on re-try
+- updated superfish to 1.6.9, with R7 hoverintent. Note had to deregister 
+  WordPress hoverintent and load up R7, also modified CSS
+- changed out the icon set to the ones I designed for Expressions, and modified the social widget 
+  to offer 32px and 16px icons as per Expressions
+- fixed Gallery display using same code as Expressions
+- made left feature html friendly and updated css
+- changed to wp-color-picker.js for WordPress versions 3.5 and newer, fall back to 
+  farbtastic.js for WordPress versions 3.4 and older
+- fixed custom icon list styles, so embedded listing works
+- Fixed Header to better set up logos and added full width banners
+- Added opacity to social icon hover state
+- modified copyright strip text in admin panel to show html
+- removed menu warning
+- updated css for wp-calendar
+- modified portfolio filters to close tags
+- modified portflio page layout and css
+- switched over to nivo slider, added ....new slider options with thumbnails and single video
+- updated css for all pages to responsive styling
+- added fitvids for responsive video
+- re-coded all sidebars changing <ul> wrappers to divs, using full array 
+  definitions, and wrapping in a function ka_express_register_sidebars() 
+  action hooked by 'widget_init'
+- modified and simplified css for sidebars and footers
+- single large feature image added
+- added post formats c/w shortcodes for quote, video, and audio
+- added jQuery script to set service box heights equal
+- updated all skins
+- fixed title in date.php to display full date if only a day is selected
+- added sidebar for 404 page
+- modified <pre> tag css to left align and overflow auto
+- changed favicon to png
+- fixed footer layout
+- added default font options
+- change date displays to format selected in Settings -> General
+- added default font options
+- change date displays to format selected in Settings -> General
+- added font size option to Fonts Tab
+- updated help sections in the theme
+- added full navigation color control for background and text
+- set up separate options panel for post formats
+- fixed IE10 bugs with the nivo slider
+- fixed styling bug for dropdown element width
+- added shortcode buttons to the visual and text editors for the Audio, Quote, and 
+  video post formats, complete with disable options
+
+Version 2.0.0 - Released 27-Oct-12
+----------------------------------------------------------------
+ - New base version after approval at WordPress.org
+ - Changed no menu warning message to direct users to the documentation.
+ - change contact e-mail header
+ - changed captcha image width
+ - found a bug in the CSS for IE 7 and 8, problems with displaying the feature section
+   was able to fix it by adding #fullwidth{float:left}
+ - contact content is not stripping slashes-fixed added stripcslashes
+ - fixed bug in service box text, removing <br/> line breaks
+
+Version 1.76.3 - Released 1-Oct-12
+----------------------------------------------------------------
+ Related to WordPress.org theme review # 2
+ - Fixed spelling of wordpress to WordPress in style.css header description
+ - Downloaded html5.js to blogBox/js and function to enqueue as per script recommendation
+ - Removed <?php if ( is_singular() ) wp_enqueue_script( 'comment-reply' ); ?>
+   from header and enqueued as per WordPress.org theme review requirements
+ - Enqueued user css options instead of including them in the header
+ - Reviewed theme and added blogBox prefixes where they were missing
+ - Fixed fresh install debug errors on service box links
+ - Added link for posts with no title as
+ - Re-coded comments section to incorporate display of trackbacks
+ - Recoded custom menu
+ - Removed `remove_action( 'wp_head','wp_generator' )` from header
+ - Removed all shortcodes. Now can be added back in with Content Pizazz Plugin
+ - Added background color functionality to theme
+ - Added custom-header functionality
+ - Re-coded Portfolio pages to better fit possible content
+ - Fixed. Removed old code and added wp_title() to header and blogBox_title_filter() to functions.php
+ - Replaced all TEMPLATE path references with get_template_directory()
+ - Changed over jQuery and Hoverintent scripts to core scripts
+ - Re - coded all data validation; added nonce to forms and sanitized data input
+ - Completly re-coded the Settings API using Oenology Settings API as a framework. 
+   All options are now saved in one table.Added context sensitive help as part of 
+   re-coding the settings API.
+ Other Changes
+  - Theme is now translation-ready
+  - Modified user documentation
+  - Added permalink to single page title
+  - added a:hover {font-weight:bold}
+  - added p tag to blockquote css
+  - added gray/white border to author comments
+  - changed footer.php to not show copyright section if all variables are empty
+  - Added option to display blog Title
+  - Added option to show or not show social strip
+  - Coded a social link widget as an option
+
+Version 1.46.2 - Released 20-Aug-12
+----------------------------------------------------------------
+  - fixed center alignment for image posts
+  - modified data validation bB_3d_button
+  - modified $content width in functions.php
+  - modified html5 ie 9 js shiv to be enqueued
+  - removed function_exists() from core funtions
+  - removed translation from searchform.php
+  - added blogBox prefix to functions, and Classes
+  - changed custom-styles.php for skins to load through enqueue
+  - removed all default content except search form from sidebars
+  - fixed sanitization problems in Feature text on page-home-blog.php
+  - modified page.php comments, to not show "comments are closed"
+  - modified pages with posts to not show comments meta when comments are disabled.
+  - modified comments form styling
+  - added special text shortcode
+  - added validation to messagebox shortcode
+
+Version 1.15.1 - Released 31-Jul-12
+----------------------------------------------------------------
+  - added tagline under logo
+  - added feature image to pages
+  - added button shortcodes
+  - changed captcha font to vera.ttf	
+  - added captcha to comment form  
+  - added Message box shortcode
+  - added <?php remove_action('wp_head','wp_generator'); ?> to above wp_head() in header.php
+    this is recommended for security reasons
+  - added visual editor-style, but had to set up for gray style and default font style
+  - When Page comments not are allowed, removed the comments closed note. This was 
+	done for left and right side bar pages and added comments to full width page
+  - added checkbox to remove comment captcha
+  - added checkbox to remove contact captcha
+  - added label style font-size:12px
+  - added google+,pinterest,digg, and delicious options to social strip
+  - fixed gradient using backgroud-attachment:fixed; in body property
+  - added add_filter('widget_text', 'do_shortcode'); to function.php so the shortcodes would
+    work in a text widget.
+  - there were some issues with the buttons in the shortcode buttons so made a few style revisions 
+    in order to get them to work.
+
+Version 1.0.0 - Released 1-Jul-12
+----------------------------------------------------------------
+- original release

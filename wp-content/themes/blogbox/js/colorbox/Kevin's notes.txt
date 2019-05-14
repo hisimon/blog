@@ -1,0 +1,24 @@
+changed
+current: " image {current} of {total}"
+to
+current: " {current} of {total}"
+
+in both expanded and minified
+
+This helps with the iPhone by reducing the text
+
+added to css for play/pause
+
+/* blogBox modifications */
+#colorbox button#cboxSlideshow {
+	background-color: #ffffff;
+	border-radius: 50%;
+	border: 2px solid #B7B7B7;
+	width: 21px;
+	height: 21px;
+	vertical-align: middle;
+	bottom: 1px;
+	font-size: 10px;
+	color: #606060;
+	font-weight: 900;
+}

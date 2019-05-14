@@ -1,0 +1,212 @@
+/**
+ * blogBox Theme White Skin
+ *
+ *
+ * @package		blogBox WordPress Theme
+ * @copyright	Copyright (c) 2012, Kevin Archibald
+ * @license		http://www.gnu.org/licenses/quick-guide-gplv3.html  GNU Public License
+ * @author		Kevin Archibald <www.kevinsspace.ca/contact/>
+ */
+
+body {background-color: #fcfcfc;}
+
+/* --------- header changes ----------------- */
+#header {
+	background-color: #fcfcfc;
+	border-top: 2px solid #fcfcfc;
+	color: #595959;
+}
+
+#header a h1 {color: #595959;}
+
+/* -------- Navigation --------------- */
+nav {
+	background-color: #605D5D;
+	background-image: -webkit-linear-gradient(top, #605D5D, #333030);
+	background-image: -moz-linear-gradient(top, #605D5D, #333030);
+	background-image: -ms-linear-gradient(top, #605D5D, #333030);
+	background-image: linear-gradient(top, #605D5D, #333030);
+	color: #F9F9F9;
+	border-bottom: 2px solid #fcfcfc;
+	margin: 5px 0px 5px 0px;
+}
+
+.sf-menu li {border-left: 1px solid #878787;}
+.sf-menu li:first-child {border:none;}
+
+.sf-menu li a {		
+	color: #EDEDED;
+}
+
+.sf-menu li:hover, .sf-menu li:hover a {
+	background-color: #605D5D;
+}
+
+.sub-menu li a {color: #EDEDED!important;}
+.sub-menu li:hover a {color: #FFFFFF!important;}
+.sub-menu li,.sf-menu ul ul li {background-color: #919191; border:none;}
+.sub-menu li:hover {background-color: #605D5D;}
+
+/*down arrowa*/
+.sf-arrows .sf-with-ul:after {border: 5px solid transparent;border-top-color: #FFFFFF; border-top-color: rgba(255,255,255,.75);}
+.sf-arrows > li > .sf-with-ul:focus:after,.sf-arrows > li:hover > .sf-with-ul:after,.sf-arrows > .sfHover > .sf-with-ul:after {
+	border-top-color: #FFFFFF;
+	border-top-color: rgba(255,255,255,1.0);
+}
+/*right arrows*/
+.sf-arrows ul .sf-with-ul:after {border-color: transparent;border-left-color: #FFFFFF; border-left-color: rgba(255,255,255,.75);}
+.sf-arrows ul li > .sf-with-ul:focus:after,.sf-arrows ul li:hover > .sf-with-ul:after,.sf-arrows ul .sfHover > .sf-with-ul:after {
+	border-left-color: #FFFFFF;
+	border-left-color: rgba(255,255,255,1.0);
+}
+
+/* ------- Layouts --------- */
+
+body #pagewrap {
+	background-color: #fcfcfc;
+	color: #595959;
+}
+
+/* ------- Layout Styles -------- */
+#widecolumn {background-color: #fcfcfc;}
+#fullwidth {background-color: #fcfcfc;}
+#sidebar{background-color: #fcfcfc;}
+
+/* -------- Home Page Styles --------- */
+#feature-area{
+	/* CSS3 Gradient */
+	background-color: #f7f7f7;
+	background-image: -webkit-linear-gradient(top, #ffffff, #f7f7f7);
+	background-image: -moz-linear-gradient(top, #ffffff, #f7f7f7);
+	background-image: -ms-linear-gradient(top, #ffffff, #f7f7f7);
+	background-image: linear-gradient(top, #ffffff, #f7f7f7);
+	color: #595959;
+}
+#home1post{background-color: #f7f7f7;}
+#home1section1 {
+	/* CSS3 Gradient */
+	background-color: #edecec;
+	background-image: -webkit-linear-gradient(left, #edecec 0%,#f7f7f7 50%, #edecec 100%);
+	background-image: -moz-linear-gradient(left, #edecec 0%,#f7f7f7 50%, #edecec 100%);
+	background-image: -ms-linear-gradient(left, #edecec 0%,#f7f7f7 50%, #edecec 100%);
+	background-image: linear-gradient(left, #edecec 0%,#f7f7f7 50%, #edecec 100%);
+}
+a.button1 {
+	background: #424143;
+	color: #FFFFFF!important;
+}
+
+a.button1:hover {
+	background-image: url('../images/shade.png');
+	font-weight: normal;
+	text-decoration: none;
+	box-shadow: 1px 2px 2px 0 rgba(72,72,72,0.5);
+}
+#slogan2{
+	/* CSS3 Gradient */
+	background-color: #edecec;
+	background-image: -webkit-linear-gradient(left, #edecec 0%,#f7f7f7 50%, #edecec 100%);
+	background-image: -moz-linear-gradient(left, #edecec 0%,#f7f7f7 50%, #edecec 100%);
+	background-image: -ms-linear-gradient(left, #edecec 0%,#f7f7f7 50%, #edecec 100%);
+	background-image: linear-gradient(left, #edecec 0%,#f7f7f7 50%, #edecec 100%);
+}
+#homesection2 h1 {color: #595959;}
+
+/* ------- Footer Styles ---------- */
+#footer {
+	/* CSS3 Gradient */
+	background-color: #f7f7f7;
+	background-image: -webkit-linear-gradient(top, #f7f7f7, #edecec);
+	background-image: -moz-linear-gradient(top, #f7f7f7, #edecec);
+	background-image: -ms-linear-gradient(top, #f7f7f7, #edecec);
+	background-image: linear-gradient(top, #f7f7f7, #edecec);
+	color: #595959;
+	color: #595959;
+}
+#footer a,#footer a:link {color: #1a3c83;}
+#footer a:hover {color: #739aec;}
+#footer h1,#footer h2,#footer h3,#footer h4,#footer h5,#footer h6 {color: #595959;}
+#copyright {background-color: #fcfcfc;color: #595959;}
+#copyright a{color: #1a3c83;}
+#copyright a:hover {color: #739aec;}
+
+/* --------- General Styles -------- */
+a:link, a:active, a:visited {color: #1a3c83;}
+a:hover { color: #739aec;}
+table#wp-calendar td#today {color: #595959;}
+table#wp-calendar th {background-color: #fcfcfc;}
+table#wp-calendar th {color: #595959;}
+
+/* ------------------- Post Styles  --------------------- */
+
+.type-post {
+	border-radius: 10px;
+	margin-top: 30px;
+	box-shadow: 2px 2px 2px 0 rgba(72,72,72,0.5);
+}
+
+#home1post .post {
+	margin: 0px;
+	border-radius: 0px;
+	/*lighten the shadow */
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;	
+}
+/* ------------------- Aside Post Format  --------------------- */
+
+.aside-entry {
+	/* CSS3 Gradient */
+	background-color: #B7997B;
+	background-image: -webkit-linear-gradient(top, #B7997B, #7F6851);
+	background-image: -moz-linear-gradient(top, #B7997B, #7F6851);
+	background-image: -ms-linear-gradient(top, #B7997B, #7F6851);
+	background-image: linear-gradient(top, #B7997B, #7F6851);
+	color: #F9F9F9;
+}
+
+.aside-entry .author a {
+	color: #F9F9F9; 
+}
+
+/* ------------------- Audio Post Format  --------------------- */
+.audio-wrap {
+	background-color: #C4C2C2;
+}
+
+/* ------------------- Chat Post Format  --------------------- */
+
+.chat-entry {
+	background-color: #ECEDEA;
+}
+
+/* ----------------- post format content : link ---------------------------- */
+
+.link-entry a {
+	background-color: #6B6B6B;
+	border: 2px solid #EFEFEF;
+	color: #EFEFEF;
+}
+
+.link-entry a:hover {
+	background-color: #4E4E4F;
+	color: #EFEFEF;
+}
+
+/* ----------------- post format content : status ---------------------------- */
+
+.status-entry {
+	background-color: #FFF591;
+	background-color: rgba(255,245,145,0.3);
+}
+
+.status-entry .comments {
+	color: #7F7F7F;
+}
+
+/* ------------------- post format content : quote ---------------------------- */
+
+.quote-entry blockquote,.quote-entry-structured {
+	border: 5px solid white;
+	background: #D1F2A9;
+}

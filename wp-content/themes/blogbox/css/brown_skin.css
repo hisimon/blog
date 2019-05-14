@@ -1,0 +1,161 @@
+/**
+ * blogBox Theme Brown Skin
+ *
+ *
+ * @package		blogBox WordPress Theme
+ * @copyright	Copyright (c) 2012, Kevin Archibald
+ * @license		http://www.gnu.org/licenses/quick-guide-gplv3.html  GNU Public License
+ * @author		Kevin Archibald <www.kevinsspace.ca/contact/>
+ */
+body {
+	background-color: #bda895;
+	background-image: url(../images/bg2.png);
+	background-repeat: repeat-x;
+}
+
+/* --------- header changes ----------------- */
+#header {
+	background-color: #382622;
+	border-top: 2px solid #1F1817;
+	color: #f6f2ea;
+}
+
+#header a h1 {color: #f6f2ea;}
+
+/* -------- Navigation --------------- */
+nav {
+	background-color: #382622;
+	border-bottom: 2px solid #1F1817;
+}
+
+.sf-menu li a {		
+	color: #f6f2ea;
+}
+
+.sf-menu li:hover, .sf-menu li:hover a {
+	background-color: #8E5F39;
+}
+
+.sub-menu li a {color: #EDEDED!important;}
+.sub-menu li:hover a {color: #FFFFFF!important;}
+.sub-menu li,.sf-menu ul ul li {background-color: #B59173; border:none;}
+.sub-menu li:hover {background-color: #8E5F39;}
+
+/*down arrowa*/
+.sf-arrows .sf-with-ul:after {border: 5px solid transparent;border-top-color: #FFFFFF; border-top-color: rgba(255,255,255,.75);}
+.sf-arrows > li > .sf-with-ul:focus:after,.sf-arrows > li:hover > .sf-with-ul:after,.sf-arrows > .sfHover > .sf-with-ul:after {
+	border-top-color: #FFFFFF;
+	border-top-color: rgba(255,255,255,1.0);
+}
+/*right arrows*/
+.sf-arrows ul .sf-with-ul:after {border-color: transparent;border-left-color: #FFFFFF; border-left-color: rgba(255,255,255,.75);}
+.sf-arrows ul li > .sf-with-ul:focus:after,.sf-arrows ul li:hover > .sf-with-ul:after,.sf-arrows ul .sfHover > .sf-with-ul:after {
+	border-left-color: #FFFFFF;
+	border-left-color: rgba(255,255,255,1.0);
+}
+
+/* ------- Layouts --------- */
+
+body #pagewrap {
+	background-color: #f6f2ea;
+	color: #1f1c17;
+}
+
+/* ------- Layout Styles -------- */
+#widecolumn {background-color: #f6f2ea;}
+#fullwidth {background-color: #f6f2ea;}
+#sidebar{background-color: #f6f2ea;}
+
+/* -------- Home Page Styles --------- */
+
+#feature-area{background-color: #f6f2ea;color:#1f1817;}
+
+#home1post{background-color: #f6f2ea;}
+#home1section1 {background-color: #B59173;}
+a.button1 {
+	background: #1F1817;
+	color: #FEE9D3!important;
+}
+
+a.button1:hover {
+	background-image: url('../images/shade.png');
+	font-weight: normal;
+	text-decoration: none;
+	box-shadow: 1px 2px 2px 0 rgba(72,72,72,0.5);
+}
+#slogan2{background-color: #B59173;}
+#homesection2 h1 {color: #1f1c17;}
+
+/* ------- Footer Styles ---------- */
+#footer {background-color:#382622;color: #FEE9D3;}
+#footer a,#footer a:link {color: #ff9115;}
+#footer a:hover {color: #FFFFFF;}
+#footer h1,#footer h2,#footer h3,#footer h4,#footer h5,#footer h6 {color: #F4F7FF;}
+#copyright {background-color: #1F1817;color: #F4F7FF;}
+#copyright a{color: #ff9115;}
+#copyright a:hover {color: #FFFFFF;}
+
+/* --------- General Styles -------- */
+a:link, a:active, a:visited {color: #ff9115;}
+a:hover { color: #B59173;}
+table#wp-calendar td#today {color: #1f1817;}
+table#wp-calendar th {background-color: #f6f2ea;}
+table#wp-calendar th {color: #1f1817;}
+
+/* ------------------- Aside Post Format  --------------------- */
+
+.aside-entry {
+	/* CSS3 Gradient */
+	background-color: #B7997B;
+	background-image: -webkit-linear-gradient(top, #B7997B, #7F6851);
+	background-image: -moz-linear-gradient(top, #B7997B, #7F6851);
+	background-image: -ms-linear-gradient(top, #B7997B, #7F6851);
+	background-image: linear-gradient(top, #B7997B, #7F6851);
+	color: #F9F9F9;
+}
+
+.aside-entry .author a {
+	color: #F9F9F9; 
+}
+
+/* ------------------- Audio Post Format  --------------------- */
+.audio-wrap {
+	background-color: #FCAC76;
+}
+
+/* ------------------- Chat Post Format  --------------------- */
+
+.chat-entry {
+	background-color: #ECEDEA;
+}
+
+/* ----------------- post format content : link ---------------------------- */
+
+.link-entry a {
+	background-color: #1F1817;
+	border: 2px solid #FEE9D3;
+	color: #FEE9D3;
+}
+
+.link-entry a:hover {
+	background-color: #423331;
+	color: #FEE9D3;
+}
+
+/* ----------------- post format content : status ---------------------------- */
+
+.status-entry {
+	background-color: #FFF591;
+	background-color: rgba(255,245,145,0.3);
+}
+
+.status-entry .comments {
+	color: #7F7F7F;
+}
+
+/* ------------------- post format content : quote ---------------------------- */
+
+.quote-entry blockquote,.quote-entry-structured {
+	border: 5px solid white;
+	background: #D1F2A9;
+}

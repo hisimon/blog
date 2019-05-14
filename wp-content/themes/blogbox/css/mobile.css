@@ -1,0 +1,225 @@
+/**
+ * This file contains the media queries and adjusted css for smaller devices
+ */
+@media screen and (max-width: 900px) {
+	
+	.portfolio_four_column {width: 100%;}
+	
+	/*.portfolio_four_column .display_caption {
+		width: 90%;
+		margin-left: 5%;
+	}*/
+
+	.portfolio_four_column .display_description {
+		width: 90%;
+		margin-left: 5%;
+
+	}
+	
+	.portfolio_four_column h6 {
+		width: 90%;
+		margin-left: 5%;
+				margin-top: 1em;
+	}
+	
+	.portfolio_four_column .display_post {
+		width: 90%;
+		margin-left: 5%;
+	}
+																		
+}
+
+@media screen and (max-width: 700px){
+	
+	/* ------------------- Navigation ---------------- */
+	#main_menu_ul {display:none;}
+	.nav-container select.menu{
+		width: 90%;
+		display: block;
+		margin: 10px auto 0px auto;
+		padding: 5px 0px 5px 1em;
+	}
+	
+	nav {padding-bottom:10px;}
+	
+	/* ------- feature elements ------ */
+	
+	#leftfeature { 
+		width: 90%;
+		padding: 0px 5% 0px 5%;
+	}
+	
+	#leftfeature h1 {margin:0px;} 
+	
+	#single-image {
+		width: 90%;
+		margin: 15px 3% 5px 3%;
+		padding: 5px 2% 10px 2%;
+		overflow: hidden;
+	}
+	
+	.half-slider-wrapper {
+		width: 90%;
+		margin: 15px 3% 5px 3%;
+		padding: 5px 2% 10px 2%;
+		overflow: hidden;
+	}
+	
+	/* -------------- static home page styles ------------ */
+	a.button1 {font-size: 14px;}
+	
+	#slogan1 h1 {font-size: 16px;}
+	
+	#servicebox1,#servicebox2,#servicebox3 {
+		width: 95%!important;
+		margin: 10px 2.5% 10px 2.5%!important;
+	}
+
+	#slogan2 p.slogan2line1 {font-size: 16px;}
+	
+	#slogan2 p.slogan2line2 {font-size: 14px;}	
+	
+	/* --------- footers ---------------- */
+
+	.footercol-3,.footercol-4 { 
+		width: 94%; 
+		float: left; 
+		padding: 0px 3% 0px 3%;
+		background: none;
+	}
+
+	.copyright_c1,.copyright_c2,.copyright_c3 {
+	    clear: left;
+	    text-align: left;
+	    width: 90%;
+	 	padding: 5px 5% 5px 5%;
+	 	float: left;
+	}
+		
+	/*------ layouts ---------------- */
+	#widecolumn,#widecolumn-right {
+		width: 92%;
+		float: left;
+	}
+	
+	#sidebar {
+		width: 92%;
+		float: left;
+		padding: 50px 4% 5px 4%;
+	}
+	
+	/* ---------- portfolio layouts ----------------- */
+	.portfolio_one_column .left_col{
+		width: 100%;
+		margin: 15px 0px 10px 0px;
+	}
+	
+	.portfolio_one_column .right_col, .portfolio_one_column .display_description,
+	.portfolio_one_column .display_caption {
+		width: 80%;
+		margin: 15px 10% 10px 10%;
+	}	
+	
+	.portfolio_two_column{
+		width: 90%;
+		margin: 15px 5% 10px 5%;
+	}
+	
+	.portfolio_three_column {
+		width: 90%;
+		margin: 15px 5% 10px 5%;
+	}
+	
+	.portfolio_three_column .display_caption h5,.portfolio_three_column .display_description,
+	 .portfolio_three_column .display_post,.portfolio_three_column h5 {
+		width: 90%;
+		margin: 15px 5% 10px 5%;
+	}
+
+}
+ 
+@media screen and (max-width: 480px){
+	
+	body {font-size: 90%;}
+	
+	/* -------------- header changes ----------- */
+	.header-widget-narrow,.header-widget-full,.header-widget-half {
+		width: 100%;
+		float: right;
+	}
+	
+	.header-widget-narrow .widget,.header-widget-full .widget,.header-widget-half .widget {
+		float:none;
+		width: 100%;
+		overflow: hidden;
+		z-index: 1;
+	}
+
+	.header-widget-narrow .bB-social-widget,.header-widget-full .bB-social-widget,.header-widget-half .bB-social-widget {
+		width: 100%;
+		float:left;
+		text-align: center;
+	}
+
+	.header-widget-narrow .bB-social-widget a,.header-widget-full .bB-social-widget a,.header-widget-half .bB-social-widget a {
+		float: none;
+	}
+
+	.header-widget-narrow .widget_text,.header-widget-full .widget_text,.header-widget-half .widget_text  {
+		float: none;
+		text-align: center;
+	}
+	
+	.header-logo {
+		width: 100%;
+		margin: 15px 0px 0px 0px;
+	}
+	
+	.center-50 {
+		width: 100%;
+		float: left;
+	}
+
+	.blog-title {
+		padding: 0em 5% 0em 5%;
+	}
+	
+	.header-logo-half {
+		width: 90%;
+		height: auto;
+		margin: 0.5em 5% 0.5em 5%;
+	}
+	
+	.full-banner-text {
+		width: 90%;
+		float: left;
+		padding: 0.5em 5% 0.75em 5%;
+	}
+	
+	.blog-title-top-left {
+		text-align: center;
+	}
+
+	.blog-description-top-left{
+		float: left;
+		text-align: center;
+	}
+
+	/* ------- Home Page Sections ------ */
+	a.button1 {
+		font-size: 12px; 
+		padding: 5px;
+		text-align: center;
+	}
+	
+	#slogan1 h1 {font-size: 14px;}
+	
+	#slogan2 p.slogan2line1 {font-size: 14px;}
+	
+	#slogan2 p.slogan2line2 {font-size: 12px;}
+
+}
+
+@media screen and (max-width: 320px){
+	th,tr,td,td:first-child {padding: 0.4em;}
+}

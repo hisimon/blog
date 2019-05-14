@@ -1,0 +1,953 @@
+/*
+
+Theme Name: WpNovel
+
+Theme URI: http:
+
+Description: 一款简单的wordpress小说网站模板，可以作单本小说网站使用，也可以作数本小说网站使用！
+
+Version: 1.0
+
+Author: bandeng
+
+Author URI: 
+
+*/
+
+body,h1,h2,h3,h4,h5,p,ul,ol,li,blockquote,th,td,hr,input,textarea,form {margin:0; padding:0;}
+
+body,html,input {font-size:12px; font-family:Arial,Helvetica,sans-serif,"宋体","黑体";}
+
+h1,h2,h3,h4,h5,h6{font-size:100%;}
+
+li {list-style:none;}
+
+img {border:none;}
+
+a {text-decoration:none;}
+
+a:hover {text-decoration:underline;}
+
+#container {
+
+	width:950px;
+
+	margin:0 auto;
+
+	overflow:hidden;
+
+}
+
+
+
+/*header*/
+
+.header {
+
+	display:block;	
+
+	overflow:hidden;
+
+}
+
+.logo {
+
+	float:left;
+
+	background:url(images/logo.gif) no-repeat;
+
+	width:190px;
+
+	height:80px;
+
+}
+
+.logo a {
+
+	display:block;
+
+	width:190px;
+
+	height:80px;
+
+	text-indent:-9999px;
+
+	outline:none;
+
+}
+
+.banner {
+
+	float:right;
+
+	width:470px;
+
+	height:60px;
+
+	padding:10px 0;
+
+}
+
+/*nav*/
+
+.nav {
+
+	display:block;
+
+	background:url(images/navbg.jpg) no-repeat;
+
+	width:950px;
+
+	height:36px;
+
+	line-height:30px;	
+
+	color:#fff;
+
+}
+
+.nav a {
+
+	color:#fff;
+
+}
+
+.nav ul {	
+
+	height:30px;
+
+	float:left;
+
+}
+
+.nav ul li {
+
+	float:left;
+
+	background:url(images/zl.gif) no-repeat right center;
+
+	padding-right:10px;
+
+	margin-left:10px;
+
+}
+
+.nav .menu-menu-container,.nav .menu {
+
+	width:880px;
+
+	float:left;
+
+	white-space:nowrap;
+
+	overflow:hidden;
+
+}
+
+.nav .end {
+
+	background:none;
+
+	float:right;
+
+	width:50px;
+
+}
+
+/*screen_left*/
+
+.screen_left {
+
+	width:738px;
+
+	float:left;
+
+	border:1px solid #D6D6D6;
+
+	border-top:none;
+
+	margin:10px 0;
+
+	display:inline;
+
+}
+
+.screen_left h3 {
+
+	height:26px;
+
+	line-height:26px;
+
+	padding-left:15px;
+
+	background:url(images/screenfive.gif) repeat-x 0 0 scroll transparent;
+
+	border-top:2px solid #bee2ee;
+
+	border-bottom:1px solid #d6d6d6;
+
+}
+
+.index_post {
+
+	overflow:hidden;
+
+	height:25px;
+
+	line-height:25px;
+
+	padding:0 14px;
+
+}
+
+.index_post li {
+
+	float:left;
+
+}
+
+.index_cate {
+
+	width:100px;
+
+	margin-right:5px;
+
+	color:#0058a6;
+
+}
+
+.index_title {	
+
+	width:325px;
+
+	margin-right:5px;	
+
+}
+
+.index_title a {
+
+	color:#000;
+
+}
+
+.index_edit {
+
+	width:100px;
+
+	margin-right:5px;
+
+	color:#98bee3;	
+
+}
+
+.index_time {
+
+	width:35px;
+
+	color:#bfbfbf;
+
+	text-align:center;
+
+}
+
+.index_views {
+
+	width:135px;
+
+	color:#ddd;
+
+	text-align:right;
+
+}
+
+.bg {
+
+	background:#f7f7f7;
+
+}
+
+/*pagenavi*/
+
+.page_navi {	
+
+	width:100%;	
+
+	height:36px;
+
+	line-height:36px;
+
+	text-align:center;
+
+	overflow:hidden;
+
+	padding-top:1em;
+
+	position:absolute;
+
+	bottom:15px;
+
+	left:15px;
+
+}
+
+.page_navi a {
+
+	padding:3px 8px;
+
+	margin:2px;
+
+	text-decoration:none;
+
+	border:1px solid #ccc;
+
+}
+
+.page_navi a:hover,.page_navi a.current{padding:3px 8px; border:1px solid #89B4D6;font-weight:bolder; text-decoration:none;}
+
+/*screen_sidebar*/
+
+.screen_sidebar {
+
+	float:right;
+
+	border:1px solid #B5BCC4;
+
+	border-bottom:none;
+
+	margin:10px 0;
+
+	display:inline;	
+
+}
+
+.box {
+
+	width:200px;
+
+	background:url(images/screenside.gif) repeat-x 0 0 scroll transparent;
+
+	border-bottom:1px solid #b5bcc4;
+
+}
+
+.box h3 {	
+
+	line-height:29px;	
+
+	padding-left:21px;
+
+	margin:0 11px;
+
+	background:url(images/screenh3.gif) no-repeat left center;
+
+	color:#5c5c5c;	
+
+}
+
+.box ul {
+
+	border-top:1px solid #b5bcc4;
+
+	padding:10px 15px;
+
+}
+
+.box ul li a {
+
+	color:#0063dc;
+
+}
+
+.box ul li {
+
+	height:20px;
+
+	line-height:20px;
+
+	border-bottom:1px solid #eee;
+
+}
+
+
+
+/*ads*/
+
+.ads {
+
+	clear:both;	
+
+	overflow:hidden;	
+
+}
+
+.ads .l {
+
+	float:left;
+
+}
+
+.ads .r {
+
+	float:right;
+
+}
+
+
+
+/*copyright*/
+
+.copyright {
+
+	margin-top:10px;
+
+	text-align:center;
+
+	border-top:1px solid #E8E8E8;
+
+	padding:10px;
+
+	color:#444;
+
+}
+
+.copyright a {
+
+	color:#444;
+
+}
+
+.copyright p {
+
+	line-height:1.5em;
+
+}
+
+/*main*/
+
+.topline {
+
+	clear:both;
+
+	height:2px;
+
+	border:1px solid #3cf;
+
+	background:#d9edff;
+
+	margin-top:10px;
+
+}
+
+.main {
+
+	width:944px;
+
+	margin:0 auto 15px auto;
+
+	overflow:hidden;
+
+	border:1px solid #e4e4e4;
+
+	padding:1px;
+
+	padding-bottom:40px;
+
+	box-shadow:0px 1px 2px #ccc;
+
+	position:relative;
+
+}
+
+.breadcrumb {
+
+	font-size:14px;
+
+	line-height:30px;
+
+	height:30px;
+
+	border-bottom:1px solid #e4e4e4;
+
+	padding-left:1em;
+
+}
+
+.breadcrumb span {
+
+	float:left;
+
+}
+
+.breadcrumb a {
+
+	color:#2f468f;
+
+	position:static;	
+
+}
+
+.breadcrumb ul li {
+
+	float: left; 
+
+	margin-right:5px; 
+
+	display:inline;
+
+}
+
+.book_info {
+
+	clear:both;
+
+	padding:15px;
+
+	display:block;
+
+	height:200px;	
+
+}
+
+.book_info .book_ad,.book_info .book_entry,.book_info .book_pic {float:left;}
+
+.book_pic .download {
+
+	position:absolute; 
+
+	bottom:0; 
+
+	left:0;
+
+	text-align:center;
+
+}
+
+.book_pic .download a {
+
+	color:#D03D00;
+
+}
+
+.book_info .book_ad,.book_info .book_ad img {
+
+	width:200px;
+
+	height:200px;
+
+	margin-right:20px;
+
+}
+
+
+
+.book_info .book_entry {
+
+	width:550px;
+
+	margin-right:20px;
+
+	position:relative;
+
+	height:200px;
+
+}
+
+.book_info .book_entry h2 {
+
+	font-size:18px;
+
+	text-align:center;
+
+	margin-bottom:10px;
+
+	color:#444;
+
+}
+
+.book_info .book_entry p {
+
+	line-height:1.5em;
+
+}
+
+.book_info .book_entry #bdshare {
+
+	position:absolute;
+
+	bottom:5px;	
+
+}
+
+.book_info .book_entry #bdshare a {
+
+	color:#444;
+
+}
+
+.book_info .book_pic img {
+
+	border:1px solid #ddd;
+
+	padding:1px;
+
+}
+
+.book_info .book_pic,.book_info .book_pic img {
+
+	width:120px;
+
+	height:150px;
+
+}
+
+.book_info .book_pic {
+
+	height:170px;
+
+	position:relative;
+
+}
+
+.order_list {
+
+	clear:both;
+
+	margin:15px 15.5px;
+
+	display:block;
+
+	overflow:hidden;
+
+	border-left:1px solid #e4e4e4;
+
+}
+
+.order_list h3 {
+
+	background:#e4ebf1;
+
+	font-size:14px;
+
+	line-height:26px;
+
+	text-align:center;
+
+	border:1px solid #e4e4e4;
+
+	border-left:none;
+
+}
+
+.order_list ul li {
+
+	float:left;
+
+	padding:5px;
+
+	width:293px;
+
+	border-right:1px solid #e4e4e4;
+
+	border-bottom:1px solid #e4e4e4;	
+
+	white-space:nowrap;
+
+	overflow:hidden;	
+
+}
+
+.order_list a {
+
+	color:#2f468f;
+
+}
+
+.order_list a:hover {
+
+	color:#f60;
+
+}
+
+.post {
+
+	padding:15px;
+
+	background:#EAF5FF;
+
+}
+
+.post h2 {
+
+	height:24px;
+
+	line-height:24px;
+
+	font-size:18px;
+
+	text-align:center;
+
+}
+
+.post_nav {
+
+	margin:15px 0;
+
+	overflow:hidden;
+
+	font-weight:bold;
+
+	font-size:14px;
+
+	text-align:center;
+
+}
+
+.post_nav a {
+
+	color:#2F468F;
+
+}
+
+.post .post_nav div {
+
+	float:left;
+
+	width:290px;
+
+	padding:5px;
+
+	white-space:nowrap;
+
+	overflow:hidden;
+
+}
+
+.post_entry {
+
+	padding:0 5px;
+
+	
+
+}
+
+.post_entry p {
+
+	line-height:2em;
+
+	margin:15px 0;
+
+	font-size:14px;
+
+	text-indent:2em;
+
+}
+
+/*comment_form*/
+
+.comment_form {
+
+	margin:10px auto;	
+
+}
+
+.comment_form .advice {
+
+	margin:10px;
+
+	text-align:center;
+
+	font-size:18px;
+
+	font-weight:bold;
+
+	color:#777;
+
+}
+
+.comment_form span {
+
+	width:30%;
+
+	margin:0 15px;
+
+	
+
+}
+
+.comment_form span input {
+
+	width:20%;
+
+	border:1px solid #C4C7BD;
+
+	padding:5px;
+
+	box-shadow:0px 1px 2px #ccc;
+
+}
+
+.comment_form span input:focus {
+
+	outline:none;
+
+}
+
+.comment_form span label {
+
+	border:1px solid #C4C7BD;
+
+	border-right:none;
+
+	padding:5px;
+
+	box-shadow:0px 1px 2px #ccc;
+
+}
+
+.comment_form textarea {		
+
+	border:1px solid #ece9d8;
+
+	width:97.7%;
+
+	padding:10px;
+
+	background:url(images/inputshadow.png) repeat-x;
+
+	border-radius:3px 3px 0 0;
+
+	margin-top:20px;
+
+	margin-bottom:-3px;
+
+}
+
+.comment_form textarea:focus {
+
+	outline:none;
+
+}
+
+.comment_form .submit_wrapper {
+
+	height:28px;
+
+	line-height:28px;
+
+	padding-left:6px;
+
+	font-size:13px;	
+
+	background:url(images/submit_wrapper.png) repeat-x scroll 0 -90px transparent;
+
+	border-width:1px;
+
+	border-style:solid;
+
+	border-color:#F2F2F2 #D2D5CA #C4C7BD;
+
+	border-bottom-right-radius:3px;
+
+	box-shadow:0px 1px 2px #ccc;
+
+}
+
+.submit_wrapper .submit {
+
+	background:url(images/submit_wrapper.png) repeat-x 0 0;
+
+	color:#aaa;
+
+	width:79px;
+
+	height:28px;
+
+	line-height:28px;
+
+	float:right;
+
+	font-size:14px;
+
+	text-align:center;
+
+	cursor:pointer;
+
+	text-shadow:1px 1px #fff;
+
+	border:none;
+
+	border-left:1px solid #e8e8e8;
+
+	margin-right:1px;
+
+	margin-top:0;
+
+}
+
+
+
+/*comments show*/
+
+.comment {
+
+	padding:5px 15px;
+
+}
+
+.comment a {
+
+	color:#f60;
+
+}
+
+.author_name {
+
+	float:left;
+
+	font-size:14px;
+
+	font-weight:bold;
+
+}
+
+.author_name a {
+
+	color:#000;
+
+}
+
+.commentmetadata,.change,.resply {
+
+	float:left;
+
+	margin-left:15px;
+
+	display:inline;
+
+	
+
+}
+
+.commentmetadata {
+
+	color:#777;
+
+}
+
+.comment_text {
+
+	clear:both;
+
+	padding:15px;
+
+	color:#f60;
+
+}
+
+.children {
+
+	margin-left:40px;
+
+	color:#f00;
+
+}

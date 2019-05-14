@@ -1,0 +1,211 @@
+/**
+ * blogBox Theme Wine Skin
+ *
+ *
+ * @package		blogBox WordPress Theme
+ * @copyright	Copyright (c) 2012, Kevin Archibald
+ * @license		http://www.gnu.org/licenses/quick-guide-gplv3.html  GNU Public License
+ * @author		Kevin Archibald <www.kevinsspace.ca/contact/>
+ */
+
+body {
+	background-color: #FFF9F9;
+}
+
+/* --------- header changes ----------------- */
+#header {
+	background-color: #FFF9F9;
+	border-top: 2px solid #FFF9F9;
+	color:#661919;
+}
+
+#header a h1 {color: #661919;}
+
+/* -------- Navigation --------------- */
+nav {
+	background-color: #605D5D;
+	background-image: -webkit-linear-gradient(top, #605D5D, #333030);
+	background-image: -moz-linear-gradient(top, #605D5D, #333030);
+	background-image: -ms-linear-gradient(top, #605D5D, #333030);
+	background-image: linear-gradient(top, #605D5D, #333030);
+	color: #F9F9F9;
+	border-bottom: 2px solid #fcfcfc;
+	margin: 5px 0px 5px 0px;
+}
+
+.sf-menu li {border-left: 1px solid #878787;}
+.sf-menu li:first-child {border:none;}
+
+.sf-menu li a {		
+	color: #EDEDED;
+}
+
+.sf-menu li:hover, .sf-menu li:hover a {
+	background-color: #661919;
+}
+
+.sub-menu li a {color: #EDEDED!important;}
+.sub-menu li:hover a {color: #FFFFFF!important;}
+.sub-menu li,.sf-menu ul ul li {background-color: #919191; border:none;}
+.sub-menu li:hover {background-color: #661919;}
+
+/*down arrowa*/
+.sf-arrows .sf-with-ul:after {border: 5px solid transparent;border-top-color: #FFFFFF; border-top-color: rgba(255,255,255,.75);}
+.sf-arrows > li > .sf-with-ul:focus:after,.sf-arrows > li:hover > .sf-with-ul:after,.sf-arrows > .sfHover > .sf-with-ul:after {
+	border-top-color: #FFFFFF;
+	border-top-color: rgba(255,255,255,1.0);
+}
+/*right arrows*/
+.sf-arrows ul .sf-with-ul:after {border-color: transparent;border-left-color: #FFFFFF; border-left-color: rgba(255,255,255,.75);}
+.sf-arrows ul li > .sf-with-ul:focus:after,.sf-arrows ul li:hover > .sf-with-ul:after,.sf-arrows ul .sfHover > .sf-with-ul:after {
+	border-left-color: #FFFFFF;
+	border-left-color: rgba(255,255,255,1.0);
+}
+
+/* ------- Layouts --------- */
+
+body #pagewrap {
+	background-color: transparent;
+	color: #661919;
+}
+
+/* ------- Layout Styles -------- */
+#widecolumn {background-color: #FFF9F9;}
+#fullwidth {background-color: #FFF9F9;}
+#sidebar{background-color: #FFF9F9;}
+
+/* -------- Home Page Styles --------- */
+#feature-area {
+	border-radius: 10px;
+	margin: 10px 0px 10px 0px;
+	padding: 5px 0px 10px 0px;
+	background-color: #F2E8E8;
+}
+
+#fullfeature{background-color: transparent;}
+#leftfeature{background-color: transparent;color:#661919;}
+#rightfeature{background-color:transparent;}
+#home1post{background-color: #FFF9F9;}
+#home1section1 {
+	border-radius: 10px;
+	background-color: #F2E8E8;
+	margin: 0px 0px 10px 0px;
+}
+a.button1 {
+	background: #661919;
+	color: #FFF9F9!important;
+}
+
+a.button1:hover {
+	background-image: url('../images/shade.png');
+	font-weight: normal;
+	text-decoration: none;
+	box-shadow: 1px 2px 2px 0 rgba(72,72,72,0.5);
+}
+
+#servicebox1,#servicebox2,#servicebox3 {
+	border-radius: 10px;
+	background-color: #F2E8E8;
+	width: 30%;
+	margin: 10px 0px 10px 2.5%;
+	float: left;
+}
+
+#slogan2{
+	border-radius: 10px;
+	background-color: #F2E8E8;
+	margin: 10px 0px 20px 0px;
+}
+
+#homesection2 h1 {color: #661919;}
+
+/* ------- Footer Styles ---------- */
+#footer {
+	border-radius: 10px;
+	margin: 10px 0px 10px 0px;
+	background-color:#661919;
+	color: #f3ecec;
+}
+
+#footer a,#footer a:link {color: #dac7c7;}
+#footer a:hover {color: #dac7c7;}
+#footer h1,#footer h2,#footer h3,#footer h4,#footer h5,#footer h6 {color: #f3ecec;}
+#copyright {
+	border-radius: 10px;
+	background-color: #661919;
+	color: #f3ecec;
+}
+#copyright a{color: #dac7c7;}
+#copyright a:hover {color: #dac7c7;}
+
+/* --------- General Styles -------- */
+a:link, a:active, a:visited {color: #5E4949;}
+a:hover { color: #A03939;}
+table#wp-calendar td#today {color: #661919;}
+table#wp-calendar th {background-color: #f3ecec;}
+table#wp-calendar th {color: #661919;}
+
+/* ------------------- General Post --------------------------- */
+.type-post {
+	padding: 10px 2% 20px 2%;
+	margin-bottom: 20px;
+	border-bottom: 3px solid #F2E8E8;
+	border-right: 3px solid #F2E8E8;
+}
+
+/* ------------------- Aside Post Format  --------------------- */
+
+.aside-entry {
+	background-color: #B7997B;
+	background-image: -webkit-linear-gradient(top, #62A862, #145214);
+	background-image: -moz-linear-gradient(top, #62A862, #145214);
+	background-image: -ms-linear-gradient(top, #62A862, #145214);
+	background-image: linear-gradient(top, #62A862, #145214);
+	color: #F9F9F9;
+}
+
+.aside-entry .author a {
+	color: #F9F9F9; 
+}
+
+/* ------------------- Audio Post Format  --------------------- */
+.audio-entry {
+	background-color: #FFF9F9;
+}
+
+/* ------------------- Chat Post Format  --------------------- */
+
+.chat-entry {
+	background-color: #dac7c7;
+}
+
+/* ----------------- post format content : link ---------------------------- */
+
+.link-entry a {
+	background-color: #dac7c7;
+	border: 2px solid #D8B1B1;
+	color: #661919;
+}
+
+.link-entry a:hover {
+	background-color: #E2D3D3;
+	color: #661919;
+}
+
+/* ----------------- post format content : status ---------------------------- */
+
+.status-entry {
+	background-color: #f3ecec;
+	background-color: rgba(243,236,236,0.3);
+}
+
+.status-entry .comments {
+	color: #7F7F7F;
+}
+
+/* ------------------- post format content : quote ---------------------------- */
+
+.quote-entry blockquote,.quote-entry-structured {
+	border: 5px solid white;
+	background: #dac7c7;
+}

@@ -1,0 +1,186 @@
+/**
+ * blogBox Theme Blue Skin
+ *
+ *
+ * @package		blogBox WordPress Theme
+ * @copyright	Copyright (c) 2012, Kevin Archibald
+ * @license		http://www.gnu.org/licenses/quick-guide-gplv3.html  GNU Public License
+ * @author		Kevin Archibald <www.kevinsspace.ca/contact/>
+ */
+body {
+	background-color: #FCFDFF;
+}
+
+/* --------- header changes ----------------- */
+#header {
+	background-color: #FCFDFF;
+	border-top: 2px solid #FFFFFF;
+	color: #636363;
+}
+
+#header a h1 {color: #636363;}
+
+/* -------- Navigation --------------- */
+nav {
+	background-color: #0065FF;
+	background-image: -webkit-linear-gradient(top, #2D80FC, #0065FF);
+	background-image: -moz-linear-gradient(top, #2D80FC, #0065FF);
+	background-image: -ms-linear-gradient(top, #2D80FC, #0065FF);
+	background-image: linear-gradient(top, #2D80FC, #0065FF);
+	color: #F9F9F9;
+	border-bottom: 2px solid #0065FF;
+	margin: 5px 0px 5px 0px;
+}
+
+.sf-menu li {border-left: 1px solid #878787;}
+.sf-menu li:first-child {border:none;}
+
+.sf-menu li a {		
+	color: #EDEDED;
+}
+
+.sf-menu li:hover, .sf-menu li:hover a {
+	background-color: #0056D8;
+}
+
+.sub-menu li a {color: #EDEDED!important;}
+.sub-menu li:hover a {color: #FFFFFF!important;}
+.sub-menu li,.sf-menu ul ul li {background-color: #1673FF; border:none;}
+.sub-menu li:hover {background-color: #0056D8;}
+
+/*down arrowa*/
+.sf-arrows .sf-with-ul:after {border: 5px solid transparent;border-top-color: #FFFFFF; border-top-color: rgba(255,255,255,.75);}
+.sf-arrows > li > .sf-with-ul:focus:after,.sf-arrows > li:hover > .sf-with-ul:after,.sf-arrows > .sfHover > .sf-with-ul:after {
+	border-top-color: #FFFFFF;
+	border-top-color: rgba(255,255,255,1.0);
+}
+/*right arrows*/
+.sf-arrows ul .sf-with-ul:after {border-color: transparent;border-left-color: #FFFFFF; border-left-color: rgba(255,255,255,.75);}
+.sf-arrows ul li > .sf-with-ul:focus:after,.sf-arrows ul li:hover > .sf-with-ul:after,.sf-arrows ul .sfHover > .sf-with-ul:after {
+	border-left-color: #FFFFFF;
+	border-left-color: rgba(255,255,255,1.0);
+}
+
+/* ------- Layouts --------- */
+
+body #pagewrap {
+	background-color: #FCFDFF;
+	color: #636363;
+}
+
+/* ------- Layout Styles -------- */
+#widecolumn {background-color: #FCFDFF;}
+#fullwidth {background-color: #FCFDFF;}
+#sidebar{background-color: #FCFDFF;}
+
+/* -------- Home Page Styles --------- */
+#feature-area{background-color: #FCFDFF;color: #091C47;}
+
+#home1post{background-color: #FCFDFF;}
+#home1section1 {background-color: #C6D8FF;}
+a.button1 {
+	background: #0065FF;
+	color: #FFF9F9!important;
+}
+
+a.button1:hover {
+	background-image: url('../images/shade.png');
+	font-weight: normal;
+	text-decoration: none;
+	box-shadow: 1px 2px 2px 0 rgba(72,72,72,0.5);
+}
+#slogan2{background-color: #C6D8FF;}
+#homesection2 h1 {color: #091C47;}
+
+/* ------- Footer Styles ---------- */
+#footer {
+	background-color: #0065FF;
+	background-image: -webkit-linear-gradient(top, #0065FF, #091C47);
+	background-image: -moz-linear-gradient(top, #0065FF, #091C47);
+	background-image: -ms-linear-gradient(top, #0065FF, #091C47);
+	background-image: linear-gradient(top, #0065FF, #091C47);
+	color: #FFFFFF;
+}
+
+#footer a,#footer a:link {color: #C6D8FF;}
+#footer a:hover {color: #F4F7FF;}
+#footer h1,#footer h2,#footer h3,#footer h4,#footer h5,#footer h6 {color: #F4F7FF;}
+#copyright {background-color: #091C47;color: #F4F7FF;}
+#copyright a{color: #C6D8FF;}
+#copyright a:hover {color: #F4F7FF;}
+
+/* --------- General Styles -------- */
+a:link, a:active, a:visited {color: #0056D8;}
+a:hover { 
+	color: #383838;
+	font-weight: normal!important;
+}
+table#wp-calendar td#today {color: #ffffff;}
+table#wp-calendar th {background-color: #f3ecec;}
+table#wp-calendar th {color: #091C47;}
+
+/* ------------------- Post Styles  --------------------- */
+
+.type-post{
+	margin-top: 20px;
+	border-bottom: 2px solid #D1DDFC;
+}
+
+/* ------------------- Aside Post Format  --------------------- */
+
+.aside-entry {
+	/* CSS3 Gradient */
+	background-color: #0842D3;
+	background-image: -webkit-linear-gradient(top, #3E69D6, #0842D3);
+	background-image: -moz-linear-gradient(top, #3E69D6, #0842D3);
+	background-image: -ms-linear-gradient(top, #3E69D6, #0842D3);
+	background-image: linear-gradient(top, #3E69D6, #0842D3);
+	color: #F9F9F9;
+}
+
+.aside-entry .author a {
+	color: #F9F9F9; 
+}
+
+/* ------------------- Audio Post Format  --------------------- */
+.audio-wrap {
+	background-color: #788CBC!important;
+	color: white!important;
+}
+
+/* ------------------- Chat Post Format  --------------------- */
+
+.chat-entry {
+	background-color: #ECEDEA;
+}
+
+/* ----------------- post format content : link ---------------------------- */
+
+.link-entry a {
+	background-color: #938F8F;
+	border: 2px solid white;
+	color: #f9f9f9;
+}
+
+.link-entry a:hover {
+	background-color: #878787;
+	color: #E2DEDE;
+}
+
+/* ----------------- post format content : status ---------------------------- */
+
+.status-entry {
+	background-color: #F1EEBF;
+	background-color: rgba(234,218,42,0.3);
+}
+
+.status-entry .comments {
+	color: #7F7F7F;
+}
+
+/* ------------------- post format content : quote ---------------------------- */
+
+.quote-entry blockquote,.quote-entry-structured {
+	border: 5px solid white;
+	background: #D1F2A9;
+}h {color: #F4F7FF;}
